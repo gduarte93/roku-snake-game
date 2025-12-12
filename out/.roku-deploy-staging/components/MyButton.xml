@@ -1,0 +1,12 @@
+<!-- MyButton.xml -->
+<component name="MyButton" extends="Group">
+  <interface>
+    <field id="buttonText" type="string" value="Placeholder" onChange="onTextChange"/>
+    <field id="buttonColor" type="color" value="0x00FF00FF" onChange="onColorChange"/>
+  </interface>
+  <children>
+    <Rectangle id="buttonRect" width="200" height="50" color="0xBADA55" />
+    <Label id="buttonLabel" translation="[10, 10]" font="font:MediumSystemFont" />
+  </children>
+  <script type="text/m" uri="MyButton.brs" />
+</component>

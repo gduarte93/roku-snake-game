@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HelloWorld" extends="Scene"> 
+	<children>
+      <Label id="myLabel" 
+      	text="My first Roku app!"
+      	width="1280" 
+      	height="720" 
+      	horizAlign="center"
+      	vertAlign="center"
+        focusable="true"
+      	/>
+        <MyButton id="myCustomButton" buttonText="Play Now!" buttonColor="0xBADA55" translation="[500, 500]" />
+    </children>
+<!-- BrightScript Portion -->
+<script type="text/brightscript" uri="pkg:/components/helloworld.brs"></script>
+<!-- End of BrightScript Portion -->
+</component>

@@ -233,8 +233,8 @@ function onKeyEvent(key as String, press as Boolean) as Boolean
         if m.block <> invalid AND m.displaySize <> invalid then
             newX = invalid
             newY = invalid
-            ' TODO: fix quick changing direction can cause head to go opposite way
-            '   e.g. right -> quick down, quick left: can cause it to go from right to left, which we don't want and what we're trying to prevent with the below logic
+            ' TODO: fix quick change direction can cause head to run into self
+            '   e.g. right -> down -> left can 
             if (key = "right" AND m.direction <> "left") then
                 m.direction = key
             else if (key = "left" AND m.direction <> "right") then
