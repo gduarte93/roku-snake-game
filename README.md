@@ -1,2 +1,3 @@
-# hello-world
-A basic sample channel application for Roku
+# Snake Game
+
+Play the classic game Snake on your Roku
