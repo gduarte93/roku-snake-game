@@ -37,7 +37,6 @@ sub init()
 end sub
 
 sub animateBlock()
-    print "animate"
     if m.alive = false then
         ' To ensure lose label appears highest z-index
         parent = m.loseLabel.getParent()
